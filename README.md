@@ -17,7 +17,7 @@ Load one form worth of edn content from a file on the classpath:
 (edn-loader/load-one "my-config.edn")
 ```
 
-So, with `resources` on the class path, this would pick up
+So, with `resources/` on the class path, this would pick up
 `resources/my-config.edn` and load the edn form contained within.
 
 It works pretty much like this:
@@ -55,14 +55,14 @@ Three reasons:
   Error in my-config.edn: EOF while reading
   ```
 
-- If the file has multiple forms, it would normally just be ignored
-  by the reader. And you would be left scratching your head wondering
+- If the file has multiple forms, the superflous ones would normally just be
+  ignored by the reader. And you would be left scratching your head wondering
   why your changes didn't show up at all.
 
   With helpful-loader you see:
 
   ```
-  /my-config.edn should contain only a single form, but had 2 forms.
+  my-config.edn should contain only a single form, but had 2 forms.
   ```
 
 ## More stuff
