@@ -4,7 +4,7 @@ A Clojure library to load resources with helpful error messages.
 
 ## Install
 
-Add `[helpful-loader "0.1.0"]` to `:dependencies` in your `project.clj`.
+Add `[helpful-loader "0.1.1"]` to `:dependencies` in your `project.clj`.
 
 ## Usage
 

@@ -1,5 +1,6 @@
 (ns helpful-loader.edn
-  (:require [clojure.java.io :as io]
+  (:require [clojure.edn]
+            [clojure.java.io :as io]
             [clojure.string :as str]))
 
 (defn- validate-resource-existence [file]

@@ -1,4 +1,4 @@
-(defproject helpful-loader "0.1.0"
+(defproject helpful-loader "0.1.1"
   :description "Load resources with helpful error messages."
   :url "http://github.com/magnars/helpful-loader"
   :license {:name "GNU General Public License v3"
